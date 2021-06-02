@@ -94,7 +94,9 @@ article {
     position:fixed;
     
 }
-
+h1 {
+    text-align: center;
+}
 
 .nav_ul_menu  {
     display: inline-block;
