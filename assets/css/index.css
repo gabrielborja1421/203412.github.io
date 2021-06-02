@@ -1,0 +1,117 @@
+
+*{
+    box-sizing: border-box;
+}
+
+ main video {
+    height: 100px;
+    width: 100px;
+} 
+
+header img { width: 150px;
+position:absolute;
+height: auto;
+top: 60%;
+transform: translateY(-50%);
+}
+.borde {
+    border: 1px black solid;
+   
+}
+
+main {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(254, 255, 250, 0.767);
+}
+.contenedor {
+    width: 100%;
+    height: 120px ;
+    position:relative
+}
+.Titulo {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-90%);
+}
+header{
+    background-color:rgba(255, 254, 254, 0.534) ;
+    border-style: double black 2px ;
+    
+}
+footer{
+    background-color: rgba(124, 124, 124, 0.685);
+    text-align: center;
+    width: 100%;
+     height: 100px; 
+   
+    margin: 0 auto 0;
+
+}
+h1 {
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    /* checar lo del texto */
+    font-family: 'Mukta', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section_noticia{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    margin: 0 0 0 15px;
+   
+
+
+}
+article {
+    width: 90%;
+    margin: 0 auto;
+}
+.section_opciones{
+    
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    position:fixed;
+    
+}
+
+
+.nav_ul_menu  {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0;
+    height: 25px;
+    
+}
+.nav_ul_menu li{
+    
+    display:inline-block;
+    margin: 0 ;
+    
+}
+.nav_ul_menuNav{
+    text-align: right;
+    margin: 0 0 0 0;
+}
+.nav_ul_menu li a {
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/imagenes/juan.jpg);  
+    background-size: cover;
+    background-position: center;
+    
+}
